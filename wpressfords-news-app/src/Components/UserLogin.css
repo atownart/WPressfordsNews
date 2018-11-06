@@ -1,0 +1,22 @@
+.UserLogin {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+    color: #357DED;
+}
+.UserLogin div {
+    margin: 5px;
+    text-align:center;
+}
+.UserLogin input {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.UserLogin button {
+    margin-left: 5px;
+}
+

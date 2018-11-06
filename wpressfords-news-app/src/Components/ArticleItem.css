@@ -1,0 +1,34 @@
+.Article-item {
+    margin-top:10px;
+    border-bottom: 1px #CAE9FF solid;
+    padding-bottom: 10px;
+}
+
+.Article-like {
+    font-size: 26px;
+    margin-top:5px;
+}
+
+.Article-like i {
+    margin-left:5px;
+    font-size: 10px;
+}
+
+.like-default {
+    color: #000000;
+    cursor: pointer;
+}
+
+.like-liked {
+    color: #62B6CB;
+    cursor: pointer;
+}
+
+.Article-item-publisher {
+    margin-top: 10px;
+}
+
+.Article-item-date {
+    margin-left:10px;
+    color: #cccccc;
+}

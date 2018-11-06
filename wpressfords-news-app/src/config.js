@@ -1,0 +1,1 @@
+export const ARTICLES_API_ENDPOINT = "https://localhost:44309/api/articles";

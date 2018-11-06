@@ -1,0 +1,51 @@
+.App {
+  text-align: left;
+}
+
+.App-header {
+  padding: 20px 0px 0px 0px;
+  color: #1B4965;
+  background-color: #CAE9FF;
+}
+
+.App-title {
+  font-size: 1.5em;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.App-menu {
+  background-color: #5FA8D3;
+}
+
+.App-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.App-menu ul li {
+  float: left;
+}
+
+.App-menu ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.App-menu ul li a:hover {
+  background-color: #B0ABAB;
+}
+
+.App-content {
+  margin: 20px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

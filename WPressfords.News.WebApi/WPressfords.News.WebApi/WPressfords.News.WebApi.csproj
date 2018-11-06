@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WPressfords.News.WebApi.Models\WPressfords.News.WebApi.Models.csproj" />
+    <ProjectReference Include="..\WPressfords.News.WebApi.Services\WPressfords.News.WebApi.Services.csproj" />
+  </ItemGroup>
+
+</Project>
